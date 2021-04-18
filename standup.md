@@ -1,8 +1,11 @@
 # Standup Meeting Notes
 
 Date:
+
 Time:
+
 Attendees:
+
 
 ### Topics of Discussion
 
