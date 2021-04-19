@@ -5,10 +5,30 @@ body {
   background-color: black;
 }
 
+h1[id="oops"] {
+  color: peachpuff;
+}
+
 @media only screen and (max-width: 600px) {
   body {
     background-color: lightblue;
   }
+}
+
+img + p {
+  font-weight: bold;
+}
+
+img ~ p {
+  color: lightblue;
+}
+
+div > h3 {
+  color: darkgreen;
+}
+
+form label {
+  color: darkgreen;
 }
   
 h1 {
@@ -24,12 +44,16 @@ h2 {
   padding: 1em;
 }
 
-.My_Journals00 {
+#oops {
   text-align: center;
   padding: 1em;
   font-family: 'Dancing Script';
 }
 
+p::first-letter {
+  color: Yellow;
+  text-transform: uppercase;
+}
 
 .Journals {
   margin-left: 10mm;
