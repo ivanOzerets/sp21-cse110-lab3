@@ -35,6 +35,7 @@ h2 {
 }
 
 .vid {
+  position: static;
   display: block;
   margin: auto;
   height: 50%;
@@ -64,5 +65,24 @@ h2 {
 }
 
 .test {
-  display: none;
+  position: absolute;
+  top: 120px; left: 620px;
+  font-size: larger;
+}
+
+button:hover {
+  color: green;
+}
+
+button:active {
+  color: red;
+}
+
+.container {
+  grid-template-columns: 40px 50px auto 50px 40px;
+  grid-template-rows: 25% 100px auto;
+}
+
+.container {
+  display: flex;
 }
