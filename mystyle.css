@@ -1,0 +1,125 @@
+/* Style sheet for index.html */
+/* The style I was goind for was to make it look like a terminal I guess haha */
+body {
+  color: rgb(127, 233, 127);
+  background-color: black;
+}
+
+h1[id="oops"] {
+  color: peachpuff;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+img + p {
+  font-weight: bold;
+}
+
+img ~ p {
+  color: lightblue;
+}
+
+div > h3 {
+  color: darkgreen;
+}
+
+form label {
+  color: darkgreen;
+}
+  
+h1 {
+  color: #FFFFFF;
+}
+
+h2 {
+  color: hsl(100, 100%, 100%);
+}
+
+.My_Journals {
+  text-align: center;
+  padding: 1em;
+}
+
+#oops {
+  text-align: center;
+  padding: 1em;
+  font-family: 'Dancing Script';
+}
+
+p::first-letter {
+  color: Yellow;
+  text-transform: uppercase;
+}
+
+.Journals {
+  margin-left: 10mm;
+}
+
+.insideJournal {
+  margin-left: 2cm;
+}
+
+.Journals000 {
+  margin-left: 2em;
+}
+
+.insideJournal000 {
+  margin-left: 10ex;
+}
+
+.vid {
+  position: static;
+  display: block;
+  margin: auto;
+  height: 50%;
+}
+
+.Federer {
+  padding-top: 5mm;
+  margin-left: 1in;
+  text-decoration: white wavy underline;
+}
+
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  border-style: groove;
+  border-color: greenyellow;
+  border-width: 5ch;
+  border-radius: 5cm;
+  max-width: 95%;
+  min-width: 25%;
+}
+
+.intro {
+  margin-left: 5ch;
+}
+
+.test {
+  position: absolute;
+  top: 120px; left: 620px;
+  font-size: larger;
+}
+
+button:hover {
+  color: green;
+}
+
+button:active {
+  color: red;
+}
+
+.container {
+  grid-template-columns: 40px 50px auto 50px 40px;
+  grid-template-rows: 25% 100px auto;
+}
+
+.container {
+  display: flex;
+}
