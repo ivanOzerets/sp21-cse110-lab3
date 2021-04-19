@@ -1,0 +1,68 @@
+/* Style sheet for index.html */
+/* The style I was goind for was to make it look like a terminal I guess haha */
+body {
+  color: rgb(127, 233, 127);
+  background-color: black;
+}
+  
+h1 {
+  color: #FFFFFF;
+}
+
+h2 {
+  color: hsl(100, 100%, 100%);
+}
+
+.My_Journals {
+  text-align: center;
+  padding: 1em;
+}
+
+.Journals {
+  margin-left: 10mm;
+}
+
+.insideJournal {
+  margin-left: 2cm;
+}
+
+.Journals000 {
+  margin-left: 2em;
+}
+
+.insideJournal000 {
+  margin-left: 10ex;
+}
+
+.vid {
+  display: block;
+  margin: auto;
+  height: 50%;
+}
+
+.Federer {
+  padding-top: 5mm;
+  margin-left: 1in;
+  text-decoration: white wavy underline;
+}
+
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  border-style: groove;
+  border-color: greenyellow;
+  border-width: 5ch;
+  border-radius: 5cm;
+  max-width: 95%;
+  min-width: 25%;
+}
+
+.intro {
+  margin-left: 5ch;
+}
+
+.test {
+  display: none;
+}
