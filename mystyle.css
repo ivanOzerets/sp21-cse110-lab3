@@ -4,6 +4,12 @@ body {
   color: rgb(127, 233, 127);
   background-color: black;
 }
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
   
 h1 {
   color: #FFFFFF;
@@ -17,6 +23,13 @@ h2 {
   text-align: center;
   padding: 1em;
 }
+
+.My_Journals00 {
+  text-align: center;
+  padding: 1em;
+  font-family: 'Dancing Script';
+}
+
 
 .Journals {
   margin-left: 10mm;
